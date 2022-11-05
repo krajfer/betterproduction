@@ -88,3 +88,5 @@ Z:\Projekty\iamdick\betterproduction\better\obj\Debug\better.csproj.CoreCompileI
 Z:\Projekty\iamdick\betterproduction\better\obj\Debug\better.csproj.CopyComplete
 Z:\Projekty\iamdick\betterproduction\better\obj\Debug\better.dll
 Z:\Projekty\iamdick\betterproduction\better\obj\Debug\better.pdb
+Z:\Projekty\iamdick\betterproduction\better\obj\Debug\better.Migrations.InitialMigration.resources
+Z:\Projekty\iamdick\betterproduction\better\obj\Debug\better.csproj.GenerateResource.cache
