@@ -9,7 +9,7 @@ namespace better.Models
 {
     public class CalculatorContext: DbContext
     {
-        public CalculatorContext(): base("name=ConnectionString")
+        public CalculatorContext(): base("name=DefaultConnection")
         {
 
         }

@@ -13,7 +13,7 @@ namespace better.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202211051929517_Initial Migration"; }
+            get { return "202211062005235_Initial Migration"; }
         }
         
         string IMigrationMetadata.Source
