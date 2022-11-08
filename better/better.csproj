@@ -138,6 +138,10 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CalculatorContext.cs" />
     <Compile Include="Models\City.cs" />
+    <Compile Include="Models\ModelsDTO\ModuleListDTO.cs" />
+    <Compile Include="Models\ModelsDTO\OperationErrorDTO.cs" />
+    <Compile Include="Models\ModelsDTO\OperationResultDTO.cs" />
+    <Compile Include="Models\ModelsDTO\OperationSuccesDTO.cs" />
     <Compile Include="Models\Module.cs" />
     <Compile Include="Models\SearchHistory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
