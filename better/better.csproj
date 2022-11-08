@@ -142,9 +142,15 @@
     <Compile Include="Models\ModelsDTO\OperationErrorDTO.cs" />
     <Compile Include="Models\ModelsDTO\OperationResultDTO.cs" />
     <Compile Include="Models\ModelsDTO\OperationSuccesDTO.cs" />
+    <Compile Include="Models\ModelsDTO\ResultCostDTO.cs" />
     <Compile Include="Models\Module.cs" />
     <Compile Include="Models\SearchHistory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="services\interfaces\ICalculatorCostService.cs" />
+    <Compile Include="services\interfaces\IModuleService.cs" />
+    <Compile Include="services\interfaces\Interface1.cs" />
+    <Compile Include="services\interfaces\ISearchHistoryService.cs" />
+    <Compile Include="services\interfaces\IShowResultService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
