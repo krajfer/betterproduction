@@ -53,17 +53,31 @@ namespace better.services.Implementations
 
         public OperationResultDTO AddCity(City city)
         {
-            throw new NotImplementedException();
+            context.City.Add(city);
+            context.SaveChanges();
+
+            return new OperationSuccesDTO<Module> { Message = "Sukces" };
         }
 
         public OperationResultDTO DeleteCity(string cityName)
         {
-            throw new NotImplementedException();
+            var city = GetCityByName(cityName);
+
+            if(city == null)
+            {
+                return new OperationErrorDTO { Code = 404, Message = $"Miasto {cityName} nie istnieje" };
+            }
+
+            context.City.Remove(city);
+            context.SaveChanges();
+
+            return new OperationSuccesDTO<Module> { Message = "Sukces" };
         }
 
         public OperationSuccesDTO<IList<City>> GetCities()
         {
-            throw new NotImplementedException();
+            List<City> cities = context.City.ToList();
+            return new OperationSuccesDTO<IList<City>> { Message = "Sukces", Result = cities };
         }
 
       
