@@ -52,16 +52,13 @@ namespace better.services.Implementations
             mod.Name = module.Name;
             mod.Price = module.Price;
             mod.Weight = module.Weight;
-            mod.AssenbkyTime = module.AssenbkyTime;
+            mod.AssemblyTime = module.AssemblyTime;
             mod.Code = module.Code;
             mod.Description = module.Description;
             context.SaveChanges();
             return new OperationSuccesDTO<Module> { Message = "Sukces" };
         }
 
-        public Module GetModule(string moduleName)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

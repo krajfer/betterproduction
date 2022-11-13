@@ -29,11 +29,6 @@ namespace better.services.Implementations
             return new OperationSuccesDTO<Module> { Message = "Sukces" };
         }
 
-        public OperationResultDTO AddSearchHistroy(SearchHistory searchHistory)
-        {
-            throw new NotImplementedException();
-        }
-
         public ResultCostDTO GetSearchHistory(string cityName, ModuleListDTO moduleListDTO)
         {
             var city = cityService.GetCityByName(cityName);

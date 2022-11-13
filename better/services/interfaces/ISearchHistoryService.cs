@@ -12,6 +12,6 @@ namespace better.services.interfaces
     {
         ResultCostDTO GetSearchHistory(string cityName, ModuleListDTO moduleListDTO);
         OperationSuccesDTO<IList<SearchHistory>> GetSearchHistories();
-        OperationResultDTO AddSearchHistroy(SearchHistory searchHistory);
+        OperationResultDTO AddSearchHistory(SearchHistory searchHistory);
     }
 }
