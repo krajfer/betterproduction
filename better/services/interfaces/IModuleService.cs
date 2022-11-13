@@ -10,7 +10,7 @@ namespace better.services.interfaces
 {
     public interface IModuleService
     {
-        Module GetModule(string moduleName);
+        Module GetModuleByName(string moduleName);
         OperationSuccesDTO<List<Module>> GetModules();
         OperationSuccesDTO<Module> AddModule(Module module);
         OperationSuccesDTO<Module> UpdateModule(Module module);
