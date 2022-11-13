@@ -90,3 +90,13 @@ Z:\Projekty\iamdick\betterproduction\better\obj\Debug\better.dll
 Z:\Projekty\iamdick\betterproduction\better\obj\Debug\better.pdb
 Z:\Projekty\iamdick\betterproduction\better\obj\Debug\better.Migrations.InitialMigration.resources
 Z:\Projekty\iamdick\betterproduction\better\obj\Debug\better.csproj.GenerateResource.cache
+Z:\Projekty\iamdick\betterproduction\better\bin\SimpleInjector.dll
+Z:\Projekty\iamdick\betterproduction\better\bin\SimpleInjector.Integration.WebApi.dll
+Z:\Projekty\iamdick\betterproduction\better\bin\System.Net.Http.Formatting.dll
+Z:\Projekty\iamdick\betterproduction\better\bin\System.Web.Http.dll
+Z:\Projekty\iamdick\betterproduction\better\bin\System.Web.Http.WebHost.dll
+Z:\Projekty\iamdick\betterproduction\better\bin\SimpleInjector.xml
+Z:\Projekty\iamdick\betterproduction\better\bin\SimpleInjector.Integration.WebApi.xml
+Z:\Projekty\iamdick\betterproduction\better\bin\System.Net.Http.Formatting.xml
+Z:\Projekty\iamdick\betterproduction\better\bin\System.Web.Http.xml
+Z:\Projekty\iamdick\betterproduction\better\bin\System.Web.Http.WebHost.xml
