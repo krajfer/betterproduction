@@ -38,7 +38,7 @@ namespace better.services.Implementations
             return new OperationSuccesDTO<Module> { Message = "Sukces" };
         }
 
-        public OperationResultDTO UpdateCostOfWrkingHour(string cityName, double workingHourCost)
+        public OperationResultDTO UpdateCostOfWorkingHour(string cityName, double workingHourCost)
         {
             var updateCity = context.City.Where(city => city.Name == cityName).FirstOrDefault();
             if (updateCity == null)

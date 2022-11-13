@@ -12,7 +12,7 @@ namespace better.services.interfaces
     {
         City GetCityByName(string cityName);
         OperationSuccesDTO<IList<City>> GetCities();
-        OperationResultDTO UpdateCostOfWrkingHour(string cityName, double workingHourCost);
+        OperationResultDTO UpdateCostOfWorkingHour(string cityName, double workingHourCost);
         OperationResultDTO UpdateTransportCost(string cityName, double transportCost);
         OperationResultDTO AddCity(City city);
         OperationResultDTO DeleteCity(string cityName);
